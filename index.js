@@ -16,3 +16,10 @@ kittens.unshift(name)
 
 return kittens
 }
+
+function destructivelyRemoveLastKitten(name){
+
+  kittens.pop()
+
+  return kittens
+}
