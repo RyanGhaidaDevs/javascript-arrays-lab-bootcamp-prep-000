@@ -30,3 +30,10 @@ function destructivelyRemoveFirstKitten(name){
 
   return kittens
 }
+
+function appendKitten(name){
+
+  var newarray = [name, ...kittens]
+
+  return kittens
+}
