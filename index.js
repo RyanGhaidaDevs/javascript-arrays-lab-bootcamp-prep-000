@@ -1,6 +1,6 @@
 
 var kittens = ['Milo', 'Otis', 'Garfield']
-// global variable 
+// global variable
 
 function destructivelyAppendKitten(name) {
 
@@ -10,7 +10,7 @@ kittens.push(name)
 }
 
 
-function destructivelyPrependKitten(name) { 
+function destructivelyPrependKitten(name) {
 
 kittens.unshift(name)
 
