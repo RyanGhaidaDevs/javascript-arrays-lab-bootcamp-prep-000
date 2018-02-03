@@ -50,7 +50,7 @@ function removeLastKitten() {
 
 var kittens2 = kittens.slice(-1)
 
-return kittens
+return kittens2
 }
 
 
@@ -58,5 +58,5 @@ function removeFirstKitten() {
 
   var kittens2 = kittens.slice(1)
 
-  return kittens
+  return kittens2
 }
