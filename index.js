@@ -45,3 +45,17 @@ function prependKitten(name){
 
   return kittens2
 }
+
+function removeLastKitten() {
+
+var kittens2 = kittens.pop()
+
+return kittens2
+}
+
+function removeFirstKitten() {
+
+  var kittens2 = kittens.shift()
+
+  return kittens2
+}
