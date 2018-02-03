@@ -53,7 +53,6 @@ var kittens2 = kittens.slice(-1)
 return kittens
 }
 
-}
 
 function removeFirstKitten() {
 
