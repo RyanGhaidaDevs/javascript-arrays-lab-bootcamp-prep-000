@@ -36,5 +36,5 @@ function appendKitten(name){
 
   var kittens2 = [...kittens,name]
 
-  return kittens
+  return kittens2
 }
